@@ -1,0 +1,125 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and default font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333; /* Text color */
+}
+
+/* Style the content container */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table th, .form-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Form Input Styles */
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9; /* Light gray background for form inputs */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+input[type="submit"] {
+    background-color: #27ae60; /* Green color for "Envoyer" button */
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+
+/* Salarie Search Styles */
+#salarieSearch {
+    width: 60%;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style the table headers */
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style alternating rows for better readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+    background-color: #f0f0f0;
+}
+
+/* Error Message Styles */
+.error-message {
+    color: #e74c3c; /* Red color for error messages */
+    font-weight: bold;
+}
+
+/* Add responsive design for smaller screens */
+@media (max-width: 768px) {
+    .content {
+        margin: 20px; /* Adjust margin for small screens */
+    }
+}
+.tiitre {
+    font-size: 30px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Add spacing below the title */
+}
+.tiitre2 {
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    color: darkslategrey; /* Text color */
+    margin-bottom: 20px; /* Add spacing below the title */
+}
