@@ -8,7 +8,6 @@ Ce projet vise à aider l'entreprise IHSSANE à gérer efficacement sa base de d
 - [Caractéristiques](#caractéristiques)
 - [Technologies Utilisées](#technologies-utilisées)
 - [Captures d'écran](#captures-décran)
-- [Video démonstrative](#video-démonstrative)
 - [Utilisation](#utilisation)
 -  [Installation](#installation)
 - [Auteurs](#auteurs)
@@ -44,7 +43,6 @@ Il est important de noter que chaque salarié peut recevoir plusieurs rémunéra
 - GlassFish (Application Server)
 ## Captures d'écran
 ![image](https://github.com/Ghaziyassine/Remuneration/assets/114885285/feda145f-1e93-423c-9899-7362f0763091)
-## Video démonstrative
 
 ## Utilisation
 
