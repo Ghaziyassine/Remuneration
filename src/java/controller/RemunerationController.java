@@ -43,8 +43,7 @@ public class RemunerationController extends HttpServlet {
         if (op.equals("Envoyer")) {
             String montan = request.getParameter("montant"); 
            double montant=Double.parseDouble(montan);
-            String date1 = request.getParameter("date");     
-            Date date = new Date(date1.replace("-", "/"));
+            Date date = new Date();
             Salarie s=ss.findById(Integer.parseInt(request.getParameter("salarieId")));
             rs.create(new Remuneration(date, montant, s) );
             response.sendRedirect("home.jsp");

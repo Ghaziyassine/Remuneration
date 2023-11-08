@@ -84,8 +84,11 @@ public class Salarie {
 
     @Override
     public String toString() {
-        return nom;
+        return " " + "id=" + id + ", nom=" + nom + ' ';
     }
+
+  
+   
 
    
 }

@@ -39,14 +39,12 @@
                                             SalarieService ss = new SalarieService();
                                             for (Salarie s1 : ss.findAll()) {
                                         %>
-                                        <option value="<%=s1.getId()%>"><%=s1.getNom()%></option>
+                                        <option value="<%=s1.getId()%>"><%=s1.toString() %></option>
                                         <%}%>
                                     </select>
                                 </td>
-                            <tr>
-                                <td class="tiitre2">Date de rémunération :</td>
-                                <td><input id="date" type="date" name="date" value="" required="" /></td>
-                            </tr>
+                        </tr>
+
                             <tr>
                                 <td class="tiitre2">Montant :</td>
                                 <td><input id="montant" type="text" name="montant" value=""  required=""/></td>

@@ -88,17 +88,15 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.print(s1.getId());
       out.write('"');
       out.write('>');
-      out.print(s1.getNom());
+      out.print(s1.toString() );
       out.write("</option>\n");
       out.write("                                        ");
 }
       out.write("\n");
       out.write("                                    </select>\n");
       out.write("                                </td>\n");
-      out.write("                            <tr>\n");
-      out.write("                                <td class=\"tiitre2\">Date de rémunération :</td>\n");
-      out.write("                                <td><input id=\"date\" type=\"date\" name=\"date\" value=\"\" required=\"\" /></td>\n");
-      out.write("                            </tr>\n");
+      out.write("                        </tr>\n");
+      out.write("\n");
       out.write("                            <tr>\n");
       out.write("                                <td class=\"tiitre2\">Montant :</td>\n");
       out.write("                                <td><input id=\"montant\" type=\"text\" name=\"montant\" value=\"\"  required=\"\"/></td>\n");
@@ -141,7 +139,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("                    <fieldset>\n");
-      out.write("                        <legend>Rémunerations</legend>\n");
+      out.write("                        <legend>information sur salarié:</legend>\n");
       out.write("\n");
       out.write("                        <table border=\"1\" class=\"tab\">\n");
       out.write("                            <thead>\n");
@@ -196,7 +194,7 @@ public final class home_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("                    <fieldset>\n");
-      out.write("                        <legend>information sur salarié:</legend>\n");
+      out.write("                        <legend>Rémunerations</legend>\n");
       out.write("\n");
       out.write("                        <table border=\"1\" class=\"tab\">\n");
       out.write("                            <thead>\n");
